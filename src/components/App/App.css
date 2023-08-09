@@ -1,0 +1,24 @@
+:root {
+  --text-color: #ffffff;
+  --text-font-family: monospace, sans-serif;
+  --box-background: #4e4e4e;
+  --number-categories: 0;
+  --number-rows-grid-categories: 2;
+}
+
+.app {
+  height: 100dvh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url(../../assets/images/bg_one.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+
+  -webkit-text-size-adjust: 100%;
+
+}
